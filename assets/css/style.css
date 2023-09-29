@@ -1,51 +1,104 @@
-
-header {
-    height: 100%;
-    background-color: rgb(9, 61, 99);
-    padding: 20px;
+/* Styles for header and page title */
+.top-row {
+    background-color: navy;
+    padding: 0px 5px 0px 5px;
+    height: auto; /* Adjust height as needed */
+    display: flex;
+    flex-direction: row;
 }
 
 .page-title {
     font-size: 100px;
     color: aqua;
-    margin: 0px;
-    padding: 50px 20px 20px 50px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.top-bar {
-    display: inline-block;
-    margin: 10px;
-    padding-left: 700px;
-    padding-top: 50px
+/* Styles for top navigation */
+nav {
+    padding-top: 0px;
 }
 
-.buttons {
-    float: left;
-    margin: 5px 2.5px 5px 0px;
-    color:orangered;
+nav ul {
+    list-style-type: none;
+    padding-left: 130px;
+    padding-top: 25px;
+}
+
+nav .buttons {
     display: inline-block;
+    margin-right: 10px;
+    color: orangered;
     background-color: black;
     padding: 15px;
-    font-size: 24px
-}
-
-.about-me {
-    display: flex;
-    margin: 10px;
-
+    font-size: 24px;
 }
 
 h2 {
-display: flex;
-margin: 10px;
-max-width: 10%;
-flex-wrap: wrap;
-justify-content: flex-start;
+    color: rgb(34, 115, 20);
+    font-size: 32px;
+    text-align: end;
+    padding: 100px 10px 0 0;
+    background-image: url(../images/Untitled-1.jpeg);
+    margin: 0
+}
 
+/* Styles for content sections */
+
+main {
+    color: navy;
+}
+.about-me, .work, .contact-me, .resume {
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+h3 {
+    padding: 15px 15px 15px 15px;
+    margin: 5px 5px 5px 5px;
+    text-align: end;
+    border-right: 2px solid gold;
+    display: inline-block;
+    max-width: 150px;
+    font-size: 32px
+}
+
+p {
+    margin: 10px;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px
 
 }
-p {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 90%;
+
+.work-image1, .work-image2, .work-image3:hover {
+    background: blue;
+}
+
+.work-image1 {
+    height: 500px;
+    width: 1000px;
+    border:5px solid rgb(9, 61, 99);
+    border-radius: 20px;
+}
+
+.work-image2 {
+    height: 250px;
+    width: 495px;
+    border:5px solid rgb(9, 61, 99);
+    border-radius: 20px;
+    margin-left: 145px;
+}
+
+.work-image3 {
+    height: 250px;
+    width:495px;
+    border: 5px solid rgb(9, 61, 99);
+    border-radius: 20px;
 }
