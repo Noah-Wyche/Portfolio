@@ -15,56 +15,69 @@
         <h1 class="page-title">Noah Wyche</h1>
         <nav>
             <ul>
-                <li class="buttons">About Me</li>
-                <li class="buttons">Work</li>
-                <li class="buttons">Contact Me</li>
-                <li class="buttons">Resume</li>
+                <button class="buttons" data-section="about-me-section">About Me</button>
+                <button class="buttons" data-section="work-section">Work</button>
+                <button class="buttons" data-section="contact-info-section">Contact Me</button>
+                <button class="buttons" data-section="resume-section">Resume</button>
             </ul>
         </nav>
         </div>
         <h2>WELCOME TO THE WEB</h2>
+        
     </header>
 
     <main class="grid">
-        <h3 class="about-me-title">ABOUT ME</h3>
+        <h3 class="about-me-title" id="about-me-section">ABOUT ME</h3>
         <div class="paragraphs">
-            <p>    Hello! My name is Noah Wyche, I am 24, and I love learning new things. Like how to code for example!
-                I am fascinated with game design, and the process of building finished applications that can be used 
-                in the real world. As I continue on my never ending search for knowledge and adventure I hope that you 
-                can follow along and see the things that I have and will create. I currently live in Cary North Carolina
-                with my incredible wife and our three adorable cats. Before I started this journey into programming I 
-                was fed up with my old job and needed a new opportunity and a new challenge. I am learning a lot but I 
-                still have a lot to learn.</p>
-            <p>     Throughout my profesional career my biggest search has been for something that I love doing and also has 
-                the chance to do some real good in the world. I am happy to say that I think I have found that through programming.
-                like any new skill it does not come easily, but we time it has taught me that there is nothing I cant achieve.
-            </p>
+            <img id="profile-picture" src="./assets/images/IMG_8632.jpeg">
+            <div>
+                <p>    Hello! My name is Noah Wyche, I am 24, and I love learning new things. Like how to code for example!
+                    I am fascinated with game design, and the process of building finished applications that can be used 
+                    in the real world. As I continue on my never ending search for knowledge and adventure I hope that you 
+                    can follow along and see the things that I have and will create. I currently live in Cary North Carolina
+                    with my incredible wife and our three adorable cats. Before I started this journey into programming I 
+                    was fed up with my old job and needed a new opportunity and a new challenge. I am learning a lot but I 
+                    still have a lot to learn.
+                </p>
+                <p>     Throughout my profesional career my biggest search has been for something that I love doing and also has 
+                    the chance to do some real good in the world. I am happy to say that I think I have found that through programming.
+                    like any new skill it does not come easily, but we time it has taught me that there is nothing I cant achieve.
+                </p>
+            </div>
         </div>
         
 
-        <h3 class="work-title">WORK</h3>
+        <h3 class="work-title" id="work-section">WORK</h3>
         <div class="first-image">
-            <img class="work-image1" src="./assets/images/Screen Shot 2023-11-15 at 11.37.51 AM.jpeg" alt="Screen shot of the Savor of the Day project homepage">
+            <a href="https://noah-wyche.github.io/Savor-of-the-Day/" target="_blank">
+                <img class="work-image1" src="./assets/images/Screen Shot 2023-11-15 at 11.37.51 AM.jpeg" alt="Screen shot of the Savor of the Day project homepage" title="Savor of the Day">
+            </a>
         </div>
         <div class="other-images">
-            <img class="work-image2" src="./assets/images/1000_F_570483170_oM3YoaLRTPPHTxTcX1wU8x06G5F1jnb3.jpeg" alt="bear image">
-            <img class="work-image3" src="./assets/images/fashion-cat-pretty-woman-dress-illustration-generative-ai-photo.jpeg" alt="cat image">
+            <a href="https://noah-wyche.github.io/placeholder1/" target="_blank">
+                <img class="work-image2" src="./assets/images/1000_F_570483170_oM3YoaLRTPPHTxTcX1wU8x06G5F1jnb3.jpeg" alt="bear image" title="Bear image placeholder1">
+            </a>
+            <a href="https://noah-wyche.github.io/placeholder2/" target="_blank">
+                <img class="work-image3" src="./assets/images/frog-suit-generative-ai_76964-11089.avif" alt="cat image" title="Frog image placeholder2">
+            </a>
             <!-- Add more work images with appropriate alt text -->
         </div>
             
 
-        <h3 class="contact-info-title">CONTACT ME</h3>
+        <h3 class="contact-info-title" id="contact-info-section">CONTACT ME</h3>
         <ul class="contact-info-content">
-            <li>Cell Phone: 919.407.1044</li> 
-            <li>Email: Noahwyche1@gmail.com</li>  
-            <li>Github URL: https://github.com/Noah-Wyche</li> 
-            <li>Linkden: coming soon!</li>
+            <li class="info">Cell Phone: 919.407.1044</li> 
+            <li class="info">Email: Noahwyche1@gmail.com</li>
+            <li class="info">Github URL: <a href="https://github.com/Noah-Wyche" target="_blank">https://github.com/Noah-Wyche</a></li> 
+            <li class="info">Linkden: coming soon!</li>   
         </ul>
 
-        <h3 class="resume-title">RESUME</h3>
+        <h3 class="resume-title" id="resume-section">RESUME</h3>
         <div class="resume-content"></div>
             <!-- Add resume details -->
     </main>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
