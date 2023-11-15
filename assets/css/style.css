@@ -35,7 +35,9 @@ nav .buttons {
 }
 
 h2 {
-    color: rgb(79, 131, 70);
+    color: orangered;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 3px 3px 0 purple;
     font-size: 32px;
     text-align: end;
     padding: 100px 10px 0px 0px;
@@ -47,6 +49,12 @@ h2 {
 
 main {
     color: navy;
+}
+
+#profile-picture {
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 360px;
 }
 
 h3 {
@@ -115,7 +123,7 @@ p {
     grid-column: 2;
     grid-row: 1;
     display: flex;
-    
+    font-size: 18px;
 }
 
 .work-title {
