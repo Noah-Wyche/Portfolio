@@ -35,10 +35,10 @@ nav .buttons {
 }
 
 h2 {
-    color: rgb(34, 115, 20);
+    color: rgb(79, 131, 70);
     font-size: 32px;
     text-align: end;
-    padding: 100px 10px 0 0;
+    padding: 100px 10px 0px 0px;
     background-image: url(../images/Untitled-1.jpeg);
     margin: 0
 }
@@ -60,6 +60,7 @@ h3 {
 
 p {
     text-indent: 20px;
+    padding-right: 25px;
 }
 
 .work-image1, .work-image2, .work-image3:hover {
@@ -92,12 +93,15 @@ p {
     display: inline-grid;
     grid-gap: 10px;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
 }
 
 .about-me-title {
     grid-column: 1;
     grid-row: 1 / span 2; /* Adjusted row span to cover two rows */
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .paragraphs {
@@ -122,22 +126,25 @@ p {
 
 .contact-info-title {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 6;
 }
 
 .contact-info-content {
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 6;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .resume-title {
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 7;
 }
 
 .resume-content {
     grid-column: 2;
-    grid-row: 6;
+    grid-row: 7;
 }
 
 @media (max-width: 768px) {
