@@ -186,7 +186,78 @@ li {
 }
 
 @media (max-width: 768px) {
+
     .grid {
         grid-template-columns: 1fr; /* Single column layout on small screens */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .about-me-content > img {
+        width: 50%; /* Take up 100% of the container width */
+        height: auto;
+        align-self: center;
+    }
+
+    .top-row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-title {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .buttons {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .work-image1,
+    .work-image2,
+    .work-image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    h3 {
+        border-right: none;
+        border-bottom: 2px solid #78C091;
+    }
+
+    .page-title,
+    .about-me-title,
+    .work-title,
+    .contact-info-title,
+    .resume-title,
+    h2 {
+        align-self: center;
+        text-align: center;
+    }
+
+    .buttons-box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav .buttons {
+        width: 80px;
+        height: auto;
+        font-size: 14px;
     }
 }
