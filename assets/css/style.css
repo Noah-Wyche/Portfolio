@@ -36,9 +36,9 @@ nav .buttons {
 }
 
 h2 {
-    color: #563635;
-    -webkit-text-stroke: 2px #B8BBB4;
-    text-shadow: 1px 1px 0 #563635;
+    color: #B8BBB4;
+    -webkit-text-stroke: 2px #563635;
+    text-shadow: 1px 1px 0 #B8BBB4;
     font-size: 32px;
     text-align: end;
     padding: 100px 10px 0px 0px;
@@ -53,9 +53,10 @@ main {
 }
 
 #profile-picture {
-    padding-top: 10px;
+    margin-top: auto; /* Center vertically */
     padding-right: 10px;
     border-radius: 360px;
+
 }
 
 h3 {
@@ -129,11 +130,21 @@ li {
     
 }
 
-.paragraphs {
+.about-me-content {
     grid-column: 2;
     grid-row: 1;
     display: flex;
     font-size: 18px;
+}
+
+.about-me-content > img {
+    width: auto; 
+    height: auto; 
+}
+
+.about-me-content > div {
+    flex: 1; 
+    padding-left: 30px;
 }
 
 .work-title {
