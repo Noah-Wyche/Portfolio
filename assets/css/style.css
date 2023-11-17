@@ -1,6 +1,6 @@
 /* Styles for header and page title */
 .top-row {
-    background-color: #13A496;
+    background-color: #9DD2AF;
     padding: 0px 5px 0px 5px;
     height: auto; /* Adjust height as needed */
     display: flex;
@@ -9,7 +9,7 @@
 
 .page-title {
     font-size: 100px;
-    color: #563635;
+    color: #4e5a50;
     margin: 5px;
     padding: 5px;
     
@@ -29,16 +29,16 @@ nav ul {
 nav .buttons {
     display: inline-block;
     margin-right: 10px;
-    color: #B8BBB4;
-    background-color: #563635;
+    color: #E3F2E8;
+    background-color: #4e5a50;
     padding: 15px;
     font-size: 24px;
 }
 
 h2 {
-    color: #B8BBB4;
+    color: #9DD2AF;
     -webkit-text-stroke: 2px #563635;
-    text-shadow: 1px 1px 0 #B8BBB4;
+    text-shadow: 2px 2px 0 #9DD2AF;
     font-size: 32px;
     text-align: end;
     padding: 100px 10px 0px 0px;
@@ -49,7 +49,7 @@ h2 {
 /* Styles for content sections */
 
 main {
-    color: #B8BBB4;
+    color: #563635;
 }
 
 #profile-picture {
@@ -110,7 +110,7 @@ li {
 
 .info {
     font-size: 30px;
-    color: #B8BBB4;
+    color: #563635;
 }
 
 
