@@ -1,6 +1,6 @@
 /* Styles for header and page title */
 .top-row {
-    background-color: navy;
+    background-color: #13A496;
     padding: 0px 5px 0px 5px;
     height: auto; /* Adjust height as needed */
     display: flex;
@@ -9,9 +9,10 @@
 
 .page-title {
     font-size: 100px;
-    color: aqua;
+    color: #563635;
     margin: 5px;
     padding: 5px;
+    
 }
 
 /* Styles for top navigation */
@@ -28,27 +29,27 @@ nav ul {
 nav .buttons {
     display: inline-block;
     margin-right: 10px;
-    color: orangered;
-    background-color: black;
+    color: #B8BBB4;
+    background-color: #563635;
     padding: 15px;
     font-size: 24px;
 }
 
 h2 {
-    color: orangered;
-    -webkit-text-stroke: 2px black;
-    text-shadow: 3px 3px 0 purple;
+    color: #563635;
+    -webkit-text-stroke: 2px #B8BBB4;
+    text-shadow: 1px 1px 0 #563635;
     font-size: 32px;
     text-align: end;
     padding: 100px 10px 0px 0px;
-    background-image: url(../images/Untitled-1.jpeg);
+    background-image: url(../images/new\ background.jpeg);
     margin: 0
 }
 
 /* Styles for content sections */
 
 main {
-    color: navy;
+    color: #B8BBB4;
 }
 
 #profile-picture {
@@ -61,7 +62,7 @@ h3 {
     padding: 15px 15px 15px 15px;
     margin: 5px 5px 5px 5px;
     text-align: start;
-    border-right: 2px solid gold;
+    border-right: 2px solid #78C091;
     max-width: 150px;
     font-size: 32px;
 }
@@ -69,6 +70,15 @@ h3 {
 p {
     text-indent: 20px;
     padding-right: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
 }
 
 .work-image1, .work-image2, .work-image3:hover {
@@ -79,34 +89,34 @@ p {
 .work-image1 {
     height: 500px;
     width: 1000px;
-    border:5px solid rgb(9, 61, 99);
+    border:5px solid #13A496;
     border-radius: 20px;
 }
 
 .work-image2 {
     height: 250px;
     width: 495px;
-    border:5px solid rgb(9, 61, 99);
+    border:5px solid #13A496;
     border-radius: 20px;
 }
 
 .work-image3 {
     height: 250px;
-    width:495px;
-    border: 5px solid rgb(9, 61, 99);
+    width: 495px;
+    border: 5px solid #13A496;
     border-radius: 20px;
 }
 
 .info {
     font-size: 30px;
-    color:rgb(9, 61, 99)
+    color: #B8BBB4;
 }
 
 
 /* Defining the Grid */
 .grid {
     display: inline-grid;
-    grid-gap: 10px;
+    grid-gap: 60px;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto auto auto auto auto auto auto auto;
 }
